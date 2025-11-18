@@ -59,13 +59,13 @@ function Atmcard() {
           <img
             src={`${
               virtual
-                ? "/public/assets/Icons/cardseal.svg"
-                : "/public/assets/Icons/brandlogo.svg"
+                ? "/assets/Icons/cardseal.svg"
+                : "/assets/Icons/brandlogo.svg"
             }`}
             alt="brand logo"
             className="w-[32px]"
           />
-          <img src="/public/assets/Icons/cardsensor.svg" alt="card sensor" />
+          <img src="/assets/Icons/cardsensor.svg" alt="card sensor" />
           <div
             className={`flex h-[24px] px-2 py-[1px] font-medium ${
               virtual
@@ -81,7 +81,7 @@ function Atmcard() {
           >
             <span>
               <img
-                src="/public/assets/Icons/cardtick.svg"
+                src="/assets/Icons/cardtick.svg"
                 alt=""
                 className="w-[12px]"
               />
@@ -89,7 +89,7 @@ function Atmcard() {
             {hidden ? "Hidden" : "Active"}
           </div>
           <img
-            src="/public/assets/Icons/MastercardIcon.svg"
+            src="/assets/Icons/MastercardIcon.svg"
             alt="Mastercard icon"
             className="ml-auto"
           />
@@ -114,14 +114,14 @@ function Atmcard() {
               <Button
                 className="rounded-l-md"
                 virtual={virtual}
-                src={"/public/assets/Icons/leftarrow.svg"}
+                src={"/assets/Icons/leftarrow.svg"}
                 setBusinesscard={setBusinesscard}
                 businesscard={businesscard}
               />
               <Button
                 className="rounded-r-md"
                 virtual={virtual}
-                src={"/public/assets/Icons/rightarrow.svg"}
+                src={"/assets/Icons/rightarrow.svg"}
                 setBusinesscard={setBusinesscard}
                 businesscard={businesscard}
               />

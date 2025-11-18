@@ -1,25 +1,25 @@
 const budgetList = [
   {
     id: 1,
-    dot: "/public/assets/Icons/incomedot.svg",
+    dot: "/assets/Icons/incomedot.svg",
     name: "Income",
-    Image: "/public/assets/Icons/incomeicon.svg",
+    Image: "/assets/Icons/incomeicon.svg",
     amount: 96000,
   },
 
   {
     id: 2,
-    dot: "/public/assets/Icons/expensesdot.svg",
+    dot: "/assets/Icons/expensesdot.svg",
     name: "Expenses",
-    Image: "/public/assets/Icons/expensesicon.svg",
+    Image: "/assets/Icons/expensesicon.svg",
     amount: 24000,
   },
 
   {
     id: 3,
-    dot: "/public/assets/Icons/scheduledot.svg",
+    dot: "/assets/Icons/scheduledot.svg",
     name: "Scheduled",
-    Image: "/public/assets/Icons/scheduleicon.svg",
+    Image: "/assets/Icons/scheduleicon.svg",
     amount: 14000,
   },
 ];
@@ -30,7 +30,7 @@ function Budget() {
       <div className="flex border-b-[1px] pb-6">
         {/* budget overview */}
         <div className="flex items-center gap-2">
-          <img src="/public/assets/Icons/budgeticon.svg" alt="Budget icon" />
+          <img src="/assets/Icons/budgeticon.svg" alt="Budget icon" />
           <p>Budget Overview</p>
         </div>
 
@@ -53,7 +53,7 @@ function Budget() {
           <button className="flex justify-center items-center text-sm font-normal gap-2 rounded-md border border-soft-200 px-3 py-1">
             Last Year{" "}
             <img
-              src="/public/assets/Icons/arrowdown.svg"
+              src="/assets/Icons/arrowdown.svg"
               alt="arrow down"
               className="w-[9.55px]"
             />
@@ -94,7 +94,7 @@ function Budget() {
         ))}
       </div>
       {/* Budget chart */}
-      <img src="/public/assets/Icons/budgetchart.svg" alt="Budget chart" />
+      <img src="/assets/Icons/budgetchart.svg" alt="Budget chart" />
     </div>
   );
 }

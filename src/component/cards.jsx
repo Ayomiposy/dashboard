@@ -4,7 +4,7 @@ export function Brandcard() {
   return (
     <div className="flex gap-4 px-6 py-3 mb-5">
       <img
-        src="/public/assets/Icons/brandlogo.svg"
+        src="/assets/Icons/brandlogo.svg"
         alt="brand logo"
         className="w-[40px]"
       />
@@ -13,7 +13,7 @@ export function Brandcard() {
         <p className="text-sm font-normal">Finance & Banking</p>
       </div>
       <img
-        src="/public/assets/Icons/profilechangeicon.svg"
+        src="/assets/Icons/profilechangeicon.svg"
         alt="profile change icon"
         className="w-[24px] ml-auto"
       />
@@ -30,7 +30,7 @@ export function Profilecard({
   return (
     <div className="flex gap-4 px-6 py-3 ">
       <img
-        src="/public/assets/Icons/profileavatar.svg"
+        src="/assets/Icons/profileavatar.svg"
         alt="brand logo"
         className="w-[40px]"
       />
@@ -39,7 +39,7 @@ export function Profilecard({
           {name}
           {showtick && (
             <span>
-              <img src="/public/assets/Icons/bluetick.svg" alt="Bluetick" />
+              <img src="/assets/Icons/bluetick.svg" alt="Bluetick" />
             </span>
           )}
         </p>
@@ -47,7 +47,7 @@ export function Profilecard({
       </div>
       {arrowicon && (
         <img
-          src="/public/assets/Icons/hover-arrow.svg"
+          src="/assets/Icons/hover-arrow.svg"
           alt="profile change icon"
           className="w-2 ml-auto"
         />

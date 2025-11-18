@@ -21,10 +21,7 @@ function Navsection({ title, navlist }) {
                   isActive ? "opacity-100" : ""
                 }`}
               >
-                <img
-                  src="/public/assets/Icons/border-blue.svg"
-                  alt=" border blue"
-                />
+                <img src="/assets/Icons/border-blue.svg" alt=" border blue" />
               </span>
               <div
                 className={` ${
@@ -39,7 +36,7 @@ function Navsection({ title, navlist }) {
                 <p className={`${isActive && "font-bold"}`}>{each.name}</p>
                 <span className="ml-auto">
                   <img
-                    src="/public/assets/Icons/hover-arrow.svg"
+                    src="/assets/Icons/hover-arrow.svg"
                     alt="hover arrow"
                     className={`opacity-0 group-hover:opacity-100 transition-opacity ease-out duration-300 w-2 ${
                       isActive ? "opacity-100" : ""
@@ -62,17 +59,13 @@ function Sidebar() {
       <Brandcard />
       {/* Navigation */}
       <div className="flex-1 flex-col flex">
-        <img
-          src="/public/assets/Icons/Divider.svg"
-          alt="divider"
-          className="px-5"
-        />
+        <img src="/assets/Icons/Divider.svg" alt="divider" className="px-5" />
         {/* main navigation */}
         <Navsection title="MAIN" navlist={mainNav} />
         {/* settings Navigation */}
         <Navsection title="OTHERS" navlist={settingNav} />
         <img
-          src="/public/assets/Icons/Divider.svg"
+          src="/assets/Icons/Divider.svg"
           alt="divider"
           className="px-8 mt-auto"
         />

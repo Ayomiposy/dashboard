@@ -9,7 +9,7 @@ export default {
       },
 
       backgroundImage: {
-        "card-image": "url('/public/assets/Icons/cardbgImage.svg')",
+        "card-image": "url('/assets/Icons/cardbgImage.svg')",
       },
 
       colors: {

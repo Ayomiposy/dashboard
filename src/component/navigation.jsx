@@ -14,14 +14,14 @@ function Navigation({ className }) {
       <div className="flex gap-6 items-center">
         {/* search bar */}
         <img
-          src="/public/assets/Icons/searchbar.svg"
+          src="/assets/Icons/searchbar.svg"
           alt="search icon"
           className="w-[15.24px]"
         />
         <div className="relative h-full hover:bg-gray-300">
           <div className="absolute top-[-8px] right-[-3px] w-[5px] h-[5px] bg-[#FB3748] rounded-full drop-shadow-[0_1px_2px_rgba(10,_13,_20,_0.03)] animate-pulse"></div>
           <img
-            src="/public/assets/Icons/notificationicon.svg"
+            src="/assets/Icons/notificationicon.svg"
             alt="notification icon"
             className="w-[15.24px]"
           />
@@ -30,7 +30,7 @@ function Navigation({ className }) {
           Move Money{" "}
           <span>
             <img
-              src="/public/assets/Icons/buttonarrowIcon.svg"
+              src="/assets/Icons/buttonarrowIcon.svg"
               alt=""
               className="w-[9px]"
             />

@@ -12,7 +12,7 @@ function RecentTransaction() {
       {/* See all transaction */}
       <NavLink to="/Transaction">
         <button className="flex gap-3 border border-soft-200 px-8 py-2 rounded-md mx-auto w-full justify-center mb-8">
-          <img src="/public/assets/Icons/transaction.svg" alt="" />
+          <img src="/assets/Icons/transaction.svg" alt="" />
           See All Transaction
         </button>
       </NavLink>
@@ -45,7 +45,7 @@ function RecentList({ recent }) {
           <p className="text-[14px] font-medium ">{recent.amount}</p>
           <p className="font-normal text-xs text-sub-600">{recent.date}</p>
         </span>
-        <img src="/public/assets/Icons/rightarrow.svg" alt="right arrow" />
+        <img src="/assets/Icons/rightarrow.svg" alt="right arrow" />
       </div>
     </div>
   );
