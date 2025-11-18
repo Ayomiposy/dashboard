@@ -4,8 +4,8 @@ export const mainNav = [
   {
     id: 1,
     name: "Dashboard",
-    img: "public/assets/Icons/dashboard.svg",
-    activeImg: "public/assets/Icons/dashboard-active.svg",
+    img: "/assets/Icons/dashboard.svg",
+    activeImg: "/assets/Icons/dashboard-active.svg",
     Path: "/Dashboard",
   },
 
@@ -13,7 +13,7 @@ export const mainNav = [
     id: 2,
     name: "My card",
     img: "/assets/Icons/mycard.svg",
-    activeImg: "public/assets/Icons/mycard-active.svg",
+    activeImg: "/assets/Icons/mycard-active.svg",
     Path: "/MyCard",
   },
 

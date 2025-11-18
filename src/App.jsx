@@ -12,6 +12,7 @@ function App() {
       {/* Main screen */}
       <div className="mainScreen w-4/5">
         <Routes>
+          <Route path="/" element={<Dashboard />} />
           <Route path="/Dashboard" element={<Dashboard />} />
         </Routes>
       </div>
